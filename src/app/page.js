@@ -178,8 +178,8 @@ export default function Home() {
             <div className="flex flex-col gap-3">
               <h2 className="font-bold">Passionate Learners</h2>
               <p>
-                Whether you're into coding, content creation, design, or
-                marketing, there's a spot for you. Our events cover diverse
+                Whether you&apos;re into coding, content creation, design, or
+                marketing, there&apos;s a spot for you. Our events cover diverse
                 interests and skills.
               </p>
             </div>
