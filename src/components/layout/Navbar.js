@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-import Logo from "../../assets/Logo.png";
+import Logo from "../../assets/logo.png";
 import Link from "next/link";
 
 const Navbar = () => {
