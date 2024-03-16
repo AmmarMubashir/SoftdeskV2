@@ -1,25 +1,25 @@
 import Image from "next/image";
-import Navbar from "../components/layout/Navbar.js";
-import softdesk_advisor from "../assets/advisor.png";
-import advisor_bg from "../assets/advisor_bg.png";
-import vp_hero from "../assets/vp_hero.png";
-import president_hero from "../assets/president_hero.png";
-import community from "../assets/community.png";
-import code from "../assets/code.png";
-import events from "../assets/events.png";
-import ellipse78 from "../assets/Ellipse78.png";
-import ellipse79 from "../assets/Ellipse79.png";
-import ellipse80 from "../assets/Ellipse80.png";
-import president from "../assets/president.png";
-import vice_president from "../assets/vice_president.png";
-import joint_secretary from "../assets/joint_secretary.png";
-import general_secretary from "../assets/general_secretary.png";
-import top_lead_icon from "../assets/top_lead_icon.png";
-import secretary_icon from "../assets/secretary_icon.png";
-import it_head from "../assets/it_head.png";
-import head_inner_icon from "../assets/head_inner_icon.png";
-import head_outer_icon from "../assets/head_outer_icon.png";
-import management from "../assets/management.png";
+import Navbar from "./components/layout/Navbar";
+import softdesk_advisor from "./assets/advisor.png";
+import advisor_bg from "./assets/advisor_bg.png";
+import vp_hero from "./assets/vp_hero.png";
+import president_hero from "./assets/president_hero.png";
+import community from "./assets/community.png";
+import code from "./assets/code.png";
+import events from "./assets/events.png";
+import ellipse78 from "./assets/Ellipse78.png";
+import ellipse79 from "./assets/Ellipse79.png";
+import ellipse80 from "./assets/Ellipse80.png";
+import president from "./assets/president.png";
+import vice_president from "./assets/vice_president.png";
+import joint_secretary from "./assets/joint_secretary.png";
+import general_secretary from "./assets/general_secretary.png";
+import top_lead_icon from "./assets/top_lead_icon.png";
+import secretary_icon from "./assets/secretary_icon.png";
+import it_head from "./assets/it_head.png";
+import head_inner_icon from "./assets/head_inner_icon.png";
+import head_outer_icon from "./assets/head_outer_icon.png";
+import management from "./assets/management.png";
 
 // import { HiUserGroup } from "react-icons/hi";
 // import { HiMiniCodeBracket } from "react-icons/hi2";
@@ -27,7 +27,6 @@ import management from "../assets/management.png";
 export default function Home() {
   return (
     <>
-      <Navbar />
       {/* <div className="flex">
         <div className="custom-clip-path min-h-[100vh] w-[70%] pt-[120px]">
           <div className="flex justify-between p-9">

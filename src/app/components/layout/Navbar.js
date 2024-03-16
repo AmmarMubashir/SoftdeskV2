@@ -5,6 +5,7 @@ import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Logo from "../../assets/logo.png";
 import Link from "next/link";
+import { IoClose } from "react-icons/io5";
 
 const Navbar = () => {
   const [show, Setshow] = useState(false);
@@ -33,7 +34,7 @@ const Navbar = () => {
           <Link href="Courses" className="cursor-pointer bg-inherit">
             Courses
           </Link>
-          <Link href="Events" className="cursor-pointer bg-inherit">
+          <Link href="/events" className="cursor-pointer bg-inherit">
             Events
           </Link>
           <Link href="Gallery" className="cursor-pointer bg-inherit">
@@ -53,7 +54,7 @@ const Navbar = () => {
 
       {show && (
         <div className="absolute z-10 top-[-6px] right-0 h-full w-[80%] md:w-[60%] bg-white text-black flex justify-center ">
-          <GiHamburgerMenu
+          <IoClose
             className=" text-[30px] text-black absolute right-4 top-4"
             onClick={() => Setshow(!show)}
           />
@@ -70,7 +71,7 @@ const Navbar = () => {
             <Link href="Courses" className="block py-2 text-black">
               Courses
             </Link>
-            <Link href="Events" className="block py-2 text-black">
+            <Link href="/events" className="block py-2 text-black">
               Events
             </Link>
             <Link href="Gallery" className="block py-2 text-black">
