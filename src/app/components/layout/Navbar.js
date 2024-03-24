@@ -52,8 +52,13 @@ const Navbar = () => {
         />
       </div>
 
-      {show && (
-        <div className="absolute z-10 top-[-6px] right-0 h-full w-[80%] md:w-[60%] bg-white text-black flex justify-center ">
+      {
+        <div
+          // className="absolute z-10 top-[-6px] right-0 h-full w-[80%] md:w-[60%] bg-white text-black flex justify-center "
+          className={`fixed z-[100] top-0  left-0 md:hidden w-[300px] h-screen bg-white  overflow-hidden transition-transform transform ${
+            show ? "translate-x-0" : "-translate-x-full"
+          }`}
+        >
           <IoClose
             className=" text-[30px] text-black absolute right-4 top-4"
             onClick={() => Setshow(!show)}
@@ -79,7 +84,7 @@ const Navbar = () => {
             </Link>
           </div>
         </div>
-      )}
+      }
     </div>
   );
 };
