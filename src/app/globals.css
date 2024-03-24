@@ -21,13 +21,24 @@
   position: relative;
   z-index: -10;
 }
+@media (min-width: 1200px) {
+  .wraper-events {
+    width: 100%;
+    overflow: hidden;
+    /* background: #000; */
+    display: flex;
+    position: relative;
+    z-index: -10;
+  }
+}
+
 .wraper-events {
   width: 100%;
   overflow: hidden;
   /* background: #000; */
-  display: flex;
+  /* display: flex; */
   position: relative;
-  z-index: -10;
+  /* z-index: -10; */
 }
 
 .div-1 {
@@ -46,10 +57,10 @@
 }
 
 .div-1-events {
-  background-image: url("./assets//events/clip-path.png");
+  clip-path: polygon(100% 0, 0 0, 0 100%);
 }
 .div-2-events {
-  clip-path: polygon(100% 0, 0 0, 0 100%);
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
 }
 
 .content {
