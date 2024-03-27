@@ -11,6 +11,7 @@ import pic1b from "../assets/events/event-3-pic-1.jpg";
 import pic2b from "../assets/events/event-3-pic-2.jpg";
 import pic3b from "../assets/events/event-3-pic-3.jpg";
 import Event from "../components/Events/Event";
+import Cabinet from "../components/Events/Cabinet";
 
 const hero1 = {
   title: " DEEPFAKE WORKSHOP",
@@ -86,6 +87,7 @@ const Events = () => {
         img2={hero2.img2}
         img3={hero2.img3}
       />
+      <Cabinet />
     </div>
   );
 };
