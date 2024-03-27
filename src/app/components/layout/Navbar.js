@@ -43,9 +43,12 @@ const Navbar = () => {
         </div>
         {/*  */}
 
-        <button className=" bg-[#FF7420] px-3 rounded-xl h-[40px]">
+        <Link
+          href="/contact"
+          className=" bg-[#FF7420] px-3 rounded-xl h-[40px] flex items-center"
+        >
           Contact Us
-        </button>
+        </Link>
         <GiHamburgerMenu
           className="md:hidden text-[30px] text-white"
           onClick={() => Setshow(!show)}
