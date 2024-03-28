@@ -160,20 +160,24 @@ const Footer = () => {
           <div className="flex flex-col gap-4">
             <div className="flex gap-3">
               <Image src={location} alt="location" width={20} height={20} />
-              <span className="text-[#EAECF0] text-[16px]">
+              <span className="text-[#EAECF0] text-[14px] sm:text-[16px]">
                 University of Engineering and Technology, Taxila
               </span>
             </div>
             <div className="flex gap-3">
               <Image src={phone} alt="location" width={20} height={20} />
-              <span className="text-[#EAECF0] text-[16px]">051-123-4567</span>
+              <span className="text-[#EAECF0] text-[14px] sm:text-[16px]">
+                051-123-4567
+              </span>
             </div>
           </div>
         </div>
       </div>
       {/*  Bottom Footer */}
-      <div className="bg-[#191A19]  py-4 px-4 md:px-10 flex justify-between">
-        <span className="text-[#98A2B3] text-[16px] ">© 2024 Ed-Softdesk.</span>
+      <div className="bg-[#191A19]  py-4 px-4 md:px-10 flex justify-between gap-2">
+        <span className="text-[#98A2B3] text-[14px] sm:text-[16px] ">
+          © 2024 Ed-Softdesk.
+        </span>
         <div className="flex gap-4">
           <Image src={mail} alt="mail" width={20} height={20} />
           <Image src={linkedin} alt="linkedin" width={20} height={20} />
