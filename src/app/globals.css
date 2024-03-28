@@ -244,6 +244,11 @@
 }
 .embla__dot--selected:after {
   background-color: #ff7420;
-  width: 24px;
+  width: 60px;
   height: 12px;
+  border-radius: 20px;
+}
+.embla__dot--selected {
+  width: 60px;
+  border-radius: 20px;
 }
