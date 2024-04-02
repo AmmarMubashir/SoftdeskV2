@@ -13,7 +13,7 @@ const Courses = () => {
         </div>
         <div>
           <p className="text-[#667085]">
-            Let's explore our courses class, the knowledge provided will
+            {"Let's"} explore our courses class, the knowledge provided will
             definitely be useful for you.
           </p>
         </div>
