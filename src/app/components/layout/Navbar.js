@@ -10,7 +10,7 @@ import { IoClose } from "react-icons/io5";
 const Navbar = () => {
   const [show, Setshow] = useState(false);
   return (
-    <div className="h-[60px] bg-[#191A19] w-full flex justify-between  z-10">
+    <div className="h-[60px] bg-[#191A19] w-full flex justify-between relative  z-50">
       <div className="p-4">
         <Image
           src={Logo}
@@ -37,7 +37,7 @@ const Navbar = () => {
           <Link href="/events" className="cursor-pointer bg-inherit">
             Events
           </Link>
-          <Link href="Gallery" className="cursor-pointer bg-inherit">
+          <Link href="/gallery" className="cursor-pointer bg-inherit">
             Gallery
           </Link>
         </div>
@@ -82,7 +82,7 @@ const Navbar = () => {
             <Link href="/events" className="block py-2 text-black">
               Events
             </Link>
-            <Link href="Gallery" className="block py-2 text-black">
+            <Link href="/gallery" className="block py-2 text-black">
               Gallery
             </Link>
           </div>
