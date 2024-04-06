@@ -5,6 +5,7 @@
 * {
   /* background: #2b2c2b; */
   scrollbar-width: none;
+  scroll-behavior: smooth;
 }
 /* body {
   position: relative;

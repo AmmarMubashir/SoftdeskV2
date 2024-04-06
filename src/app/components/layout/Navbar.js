@@ -25,13 +25,13 @@ const Navbar = () => {
           <Link href="/" className="cursor-pointer bg-inherit">
             Home
           </Link>
-          <Link href="About" className="cursor-pointer bg-inherit">
+          <Link href="/#about" className="cursor-pointer bg-inherit">
             About Us
           </Link>
-          <Link href="Cabinet" className="cursor-pointer bg-inherit">
+          <Link href="/#cabinet" className="cursor-pointer bg-inherit">
             Cabinet
           </Link>
-          <Link href="Courses" className="cursor-pointer bg-inherit">
+          <Link href="/#courses" className="cursor-pointer bg-inherit">
             Courses
           </Link>
           <Link href="/events" className="cursor-pointer bg-inherit">
@@ -70,13 +70,13 @@ const Navbar = () => {
             <Link href="/" className="block py-2 text-black">
               Home
             </Link>
-            <Link href="About" className="block py-2 text-black">
+            <Link href="/#about" className="block py-2 text-black">
               About Us
             </Link>
-            <Link href="Cabinet" className="block py-2 text-black">
+            <Link href="/#cabinet" className="block py-2 text-black">
               Cabinet
             </Link>
-            <Link href="Courses" className="block py-2 text-black">
+            <Link href="/#courses" className="block py-2 text-black">
               Courses
             </Link>
             <Link href="/events" className="block py-2 text-black">

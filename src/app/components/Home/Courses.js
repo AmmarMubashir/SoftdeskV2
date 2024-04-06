@@ -3,7 +3,7 @@ import Slider from "./Slider";
 
 const Courses = () => {
   return (
-    <div className="min-h-[80vh] w-full ">
+    <div id="courses" className="min-h-[80vh] w-full ">
       <div className="flex flex-col gap-9 w-[90%] mx-auto">
         <div className="mx-auto text-center w-[60%]">
           <h2 className=" text-[1.3rem] sm:text-[1.8rem] font-bold  text-black">

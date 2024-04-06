@@ -6,7 +6,7 @@ import events from "../../assets/home/events.png";
 
 const About = () => {
   return (
-    <div className="pt-6 flex flex-col gap-[50px]">
+    <div id="about" className="pt-6 flex flex-col gap-[50px]">
       <h2 className="font-bold text-[2.1rem] text-center">
         About <span className="text-[#FF7420]">Softdesk</span>
       </h2>

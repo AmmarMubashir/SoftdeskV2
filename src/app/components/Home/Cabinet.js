@@ -13,7 +13,7 @@ import secretary_icon from "../../assets/home/secretary_icon.png";
 
 const Cabinet = () => {
   return (
-    <div className=" pt-6 ">
+    <div id="cabinet" className=" pt-6 ">
       <h2 className="font-bold text-[2.1rem] text-center">
         Meet the <span className="text-[#FF7420]">Cabinet</span>
       </h2>
