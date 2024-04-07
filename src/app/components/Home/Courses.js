@@ -5,16 +5,16 @@ import Image from "next/image";
 
 const Courses = () => {
   return (
-    <div id="courses" className="min-h-[80vh] w-full ">
+    <div id="courses" className="min-h-[80vh] w-full relative">
       <Image
         src={spiral}
-        height={100}
-        width={100}
+        height={70}
+        width={70}
         alt="spiral courses"
-        className="absolute"
+        className="hidden sm:block absolute  -top-[75px] right-40 rotate-[270deg]"
       />
       <div className="flex flex-col gap-9 w-[90%] mx-auto">
-        <div className="mx-auto text-center w-[60%]">
+        <div className="mx-auto text-center w-[80%] sm:w-[60%]">
           <h2 className=" text-[1.3rem] sm:text-[1.8rem] pt-3 font-bold  text-black">
             Courses <span className="text-[#FF7420]">Tech Spectrum</span>
           </h2>
