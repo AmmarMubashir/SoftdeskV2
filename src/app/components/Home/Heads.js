@@ -11,17 +11,65 @@ import graphics from "../../assets/home/graphics.png";
 import alumni from "../../assets/home/alumni.png";
 import media from "../../assets/home/media.png";
 import finance from "../../assets/home/finance.png";
+import spiral from "../../assets/home/spiral.png";
+import spiral_2 from "../../assets/home/spiral_2.png";
+import hero_left_cursor from "../../assets/home/hero_left_cursor.png";
+import hero_triangle from "../../assets/home/hero_triangle.png";
+import hero_rectangle from "../../assets/home/hero_rectangle.png";
+import hero_ellipse_2 from "../../assets/home/hero_ellipse_2.png";
 
 const Heads = () => {
   return (
-    <div className="min-h-[100vh] bg-[#191A19]  p-4 flex flex-col gap-[70px]">
+    <div className="min-h-[100vh] bg-[#191A19]  p-4 flex flex-col gap-[70px] relative">
       <div className="mx-auto text-center w-[60%]">
         <h2 className=" text-[1.3rem] sm:text-[1.8rem] font-bold  text-white">
           Connect with <span className="text-[#FF7420]">Heads</span>
         </h2>
         <p className="h-[2px] w-[50px] bg-[#FF7420] mx-auto translate-x-[-80px] sm:translate-x-[-110px] translate-y-[10px]"></p>
       </div>
-      <div className="flex w-[100%] mx-auto flex-col p-5 sm:gap-y-[20px]">
+      <Image
+        src={spiral}
+        height={80}
+        width={30}
+        alt="spiral"
+        className="absolute top-[14%] right-0 h-[250px] w-[70px]"
+      />
+      <Image
+        src={spiral_2}
+        height={80}
+        width={30}
+        alt="spiral"
+        className="absolute bottom-[14%] left-0 h-[250px] w-[70px]"
+      />
+      <Image
+        src={hero_left_cursor}
+        height={30}
+        width={30}
+        alt="spiral"
+        className="absolute top-[30%] sm:top-[35%] left-[25%]"
+      />
+      <Image
+        src={hero_rectangle}
+        height={30}
+        width={30}
+        alt="spiral"
+        className="absolute right-[25%] sm:right-[15%] bottom-[25%] sm:bottom-[20%]"
+      />
+      <Image
+        src={hero_triangle}
+        height={20}
+        width={20}
+        alt="spiral"
+        className="absolute bottom-[30%] left-[20%]"
+      />
+      <Image
+        src={hero_ellipse_2}
+        height={20}
+        width={20}
+        alt="spiral"
+        className="absolute top-[55%] sm:top-[50%] right-[43%]"
+      />
+      <div className="flex w-[100%] mx-auto flex-col p-5 sm:gap-y-[20px] relative">
         <div className="sm:flex  justify-between w-[95%] sm:w-[90%] mx-auto p-4">
           <div className="flex md:justify-center items-center gap-7 sm:gap-11">
             <div className="flex justify-center items-center">

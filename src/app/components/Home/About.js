@@ -3,11 +3,36 @@ import Image from "next/image";
 import community from "../../assets/home/community.png";
 import code from "../../assets/home/code.png";
 import events from "../../assets/home/events.png";
+import about from "../../assets/home/about.png";
+import hero_triangle from "../../assets/home/hero_triangle.png";
+import hero_ellipse_2 from "../../assets/home/hero_ellipse_2.png";
 
 const About = () => {
   return (
-    <div id="about" className="pt-6 flex flex-col gap-[50px]">
-      <h2 className="font-bold text-[2.1rem] text-center">
+    <div id="about" className="pt-11 flex flex-col gap-[50px]">
+      <h2 className="font-bold text-[2.1rem] text-center relative">
+        <Image
+          src={about}
+          height={30}
+          width={30}
+          alt=""
+          className="hidden md:block absolute left-[25%] lg:left-[35%] -top-3"
+        />
+        <Image
+          src={hero_triangle}
+          height={30}
+          width={30}
+          alt=""
+          className="hidden md:block absolute left-[20%] -top-7"
+        />
+        <Image
+          src={hero_ellipse_2}
+          height={30}
+          width={30}
+          alt=""
+          className="hidden md:block absolute right-7 top-11 "
+        />
+        <p className="h-[4px] w-[50px] bg-[#FF7420] mx-auto translate-x-[-80px] sm:translate-x-[-100px] -translate-y-[3px] rounded"></p>
         About <span className="text-[#FF7420]">Softdesk</span>
       </h2>
       <div className="w-[90%] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 ">

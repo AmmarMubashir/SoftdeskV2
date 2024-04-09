@@ -2,10 +2,18 @@ import React from "react";
 import Slider from "./Slider";
 import spiral from "../../assets/home/spiral.png";
 import Image from "next/image";
+import course_bulb from "../../assets/home/course_bulb.png";
 
 const Courses = () => {
   return (
     <div id="courses" className="min-h-[80vh] w-full relative">
+      <Image
+        src={course_bulb}
+        height={40}
+        width={40}
+        alt=""
+        className="absolute left-[7%] sm:left-[15%]"
+      />
       <Image
         src={spiral}
         height={70}

@@ -14,6 +14,8 @@ import hero_rectangle from "../../assets/home/hero_rectangle.png";
 import hero_triangle from "../../assets/home/hero_triangle.png";
 import bulb from "../../assets/home/bulb.png";
 import watch from "../../assets/home/watch.png";
+import hero_ellipse from "../../assets/home/hero_ellipse.png";
+import hero_ellipse_2 from "../../assets/home/hero_ellipse_2.png";
 
 const Hero = () => {
   return (
@@ -21,6 +23,13 @@ const Hero = () => {
       <div className="div-1 px-2">
         <div className="flex justify-between pl-[10px] sm:pl-[70px] pt-[50px] md:pt-[60px] ">
           <div className="w-full md:w-[90%] lg:w-[70%] flex flex-col gap-4 relative ">
+            <Image
+              src={hero_ellipse}
+              height={20}
+              width={20}
+              alt="ellipse"
+              className="absolute right-0 -top-10"
+            />
             <p className=" text-sm sm:text-lg p-2 bg-white text-black rounded-lg w-[120%] sm:w-[60%] relative z-10  md:w-[80%] ">
               👋 Welcome to the Softdesk
             </p>
@@ -135,7 +144,15 @@ const Hero = () => {
               />
             </div>
           </div>
-          <div className="flex justify-end pt-[90px] md:pt-5 pr-7 ">
+
+          <Image
+            src={hero_ellipse_2}
+            height={20}
+            width={20}
+            alt="ellipse"
+            className="hidden lg:block absolute bottom-11 right-[15%]"
+          />
+          <div className="flex justify-end pt-[90px] md:pt-5 pr-7">
             <Image
               src={president_hero}
               height={150}

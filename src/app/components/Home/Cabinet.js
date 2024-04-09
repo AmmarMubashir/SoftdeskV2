@@ -10,6 +10,7 @@ import joint_secretary from "../../assets/home/joint_secretary.png";
 import general_secretary from "../../assets/home/general_secretary.png";
 import top_lead_icon from "../../assets/home/top_lead_icon.png";
 import secretary_icon from "../../assets/home/secretary_icon.png";
+import about from "../../assets/home/about.png";
 
 const Cabinet = () => {
   return (
@@ -118,7 +119,14 @@ const Cabinet = () => {
           </div>
         </div>
         {/* </div> */}
-        <div className="w-[90%] sm:w-[90%] mx-auto  flex flex-col items-center justify-center gap-3 ">
+        <div className="w-[90%] sm:w-[90%] mx-auto  flex flex-col items-center justify-center gap-3 relative">
+          <Image
+            src={about}
+            height={30}
+            width={30}
+            alt=""
+            className="absolute -top-11 "
+          />
           <h2 className="text-[1.2rem] sm:text-[1.8rem] font-bold sm:w-[90%] text-center sm:text-left">
             Manage everything in one workspace
           </h2>
