@@ -20,7 +20,8 @@ import CyberImg from "../../assets/home/CourseCard/CyberImg.jpg";
 import CloudImg from "../../assets/home/CourseCard/CloudImg.jpg";
 import FlutterImg from "../../assets/home/CourseCard/FlutterImg.jpg";
 
-import DataScienceHead from "../../assets/home/CourseCard/DataScienceHead2.jpeg";
+import DataScienceHead2 from "../../assets/home/CourseCard/DataScienceHead2.jpeg";
+import DataScienceHead from "../../assets/home/CourseCard/DataScienceHead.jpeg";
 import WebDevHead from "../../assets/home/CourseCard/WebDevHead.jpg";
 import CloudHead from "../../assets/home/CourseCard/CloudHead2.jpg";
 import CyberHead from "../../assets/home/CourseCard/CyberHead.jpeg";
@@ -43,12 +44,12 @@ const courseData = [
     courseImageUrl: DataScienceImg,
     courseTitle: "Data",
     courseHeading: "Data Science",
-    courseDocumentUrl: "DataScienceRoadmap.pdf",
+    courseDocumentUrl: "/DataScienceRoadmap.pdf",
     courseDescription:
       "Dive into the world of data science, where every dataset holds the keys to unlock infinite possibilities and insights.",
     courseHeadName: "Syed Ali Taqi",
     courseHeadSession: "21 session SED",
-    courseHeadImgUrl: DataScienceHead,
+    courseHeadImgUrl: DataScienceHead2,
   },
   {
     courseImageUrl: WebDevImg,
@@ -70,7 +71,7 @@ const courseData = [
       "Dive into the world of data science, where every dataset contains valuable information waiting to be discovered and used to solve problems.",
     courseHeadName: "Abdullah",
     courseHeadSession: "21 session SED",
-    courseHeadImgUrl: "",
+    courseHeadImgUrl: DataScienceHead,
   },
   {
     courseImageUrl: CyberImg,
