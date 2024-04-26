@@ -174,17 +174,34 @@ const Footer = () => {
         </div>
       </div>
       {/*  Bottom Footer */}
-      <div className="bg-[#191A19]  py-4 px-4 md:px-10 flex justify-between gap-2">
-        <span className="text-[#98A2B3] text-[14px] sm:text-[16px] ">
-          © 2024 Ed-Softdesk.
-        </span>
-        <div className="flex gap-4">
+      <div className="bg-[#191A19]  py-4 px-4 md:px-10 grid grid-cols-1 text-center gap-2">
+        <div className="flex justify-center gap-4">
           <Image src={mail} alt="mail" width={20} height={20} />
           <Image src={linkedin} alt="linkedin" width={20} height={20} />
           <Image src={facebook} alt="facebook" width={20} height={20} />
           <Image src={instagram} alt="instagram" width={20} height={20} />
           <Image src={dribble} alt="dribble" width={20} height={20} />
         </div>
+        <span className="text-[#98A2B3] text-[13px] sm:text-[14px] ">
+          © 2024 Ed-Softdesk.designed by{" "}
+          <Link
+            href="https://www.behance.net/shaista12"
+            className="text-[#FF7420]"
+          >
+            Shaista (21-SE-90)
+          </Link>{" "}
+          &nbsp; And developed by{" "}
+          <Link href="" className="text-[#FF7420]">
+            M.Ammar Mubashir (21-SE-38)
+          </Link>{" "}
+          &nbsp; & &nbsp;
+          <Link
+            href="https://www.syedmoazamali.online/"
+            className="text-[#FF7420]"
+          >
+            Syed Moazam Ali (21-SE-48)
+          </Link>
+        </span>
       </div>
     </footer>
   );

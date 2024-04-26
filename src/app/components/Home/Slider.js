@@ -26,6 +26,8 @@ import WebDevHead from "../../assets/home/CourseCard/WebDevHead.jpg";
 import CloudHead from "../../assets/home/CourseCard/CloudHead2.jpg";
 import CyberHead from "../../assets/home/CourseCard/CyberHead.jpeg";
 import WebDevHead2 from "../../assets/home/CourseCard/WebHead2.jpeg";
+import appDevHead from "../../assets/home/CourseCard/appDeveloper.jpeg";
+import designer from "../../assets/home/CourseCard/designer.jpg";
 
 const courseData = [
   {
@@ -38,7 +40,7 @@ const courseData = [
       "Learn how to apply development principles to your website designs.",
     courseHeadName: "Arslan Niazi",
     courseHeadSession: "20 session SED",
-    courseHeadImgUrl: "",
+    courseHeadImgUrl: designer,
   },
   {
     courseImageUrl: DataScienceImg,
@@ -115,7 +117,7 @@ const courseData = [
       "Dive into the world of full-stack web development, where every interaction sparks innovative solutions and fosters exploration.",
     courseHeadName: "Faheem Abbass",
     courseHeadSession: "20 session SED",
-    courseHeadImgUrl: "",
+    courseHeadImgUrl: appDevHead,
   },
 ];
 
