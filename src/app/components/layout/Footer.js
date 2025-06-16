@@ -184,18 +184,19 @@ const Footer = () => {
         </div>
         <span className="text-[#98A2B3] text-[13px] sm:text-[14px] ">
           © 2024 Ed-Softdesk.designed by{" "}
-          <Link
+          <Link target="_blank"
             href="https://www.behance.net/shaista12"
             className="text-[#FF7420]"
           >
             Shaista (22-SE-90)
           </Link>{" "}
           &nbsp; And developed by{" "}
-          <Link href="https://ammar-tan.vercel.app/" className="text-[#FF7420]">
+          <Link target="_blank" href="https://ammar-tan.vercel.app/" className="text-[#FF7420]">
             M.Ammar Mubashir (21-SE-38)
           </Link>{" "}
           &nbsp; & &nbsp;
           <Link
+            target="_blank"
             href="https://www.syedmoazamali.online/"
             className="text-[#FF7420]"
           >
