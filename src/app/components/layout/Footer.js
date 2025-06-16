@@ -191,7 +191,7 @@ const Footer = () => {
             Shaista (21-SE-90)
           </Link>{" "}
           &nbsp; And developed by{" "}
-          <Link href="" className="text-[#FF7420]">
+          <Link href="https://ammar-tan.vercel.app/" className="text-[#FF7420]">
             M.Ammar Mubashir (21-SE-38)
           </Link>{" "}
           &nbsp; & &nbsp;
